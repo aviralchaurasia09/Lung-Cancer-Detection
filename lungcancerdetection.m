@@ -1,3 +1,5 @@
+%%%%%%LUNG CANCER DETECTION USING CT SCAN IMAGE
+
 I=imread('cancer10.jpg');
 figure
 imshow(I);

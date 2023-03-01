@@ -43,7 +43,7 @@ he=histeq(t);
 
 axes(handles.axes2);
 imshow(he);
-title 'Histogram Equalization'
+title 'CLAHE Method'
 function pushbutton3_Callback(hObject, eventdata, handles)
 global I
 t=rgb2gray(I);
@@ -67,7 +67,7 @@ Iy = imfilter(double(bw), hy, 'replicate');
 axes(handles.axes4);
 imshow(Iy,[]),
 
-title('Filtered Image')
+title('Filtered Denoising Image')
 
 function pushbutton5_Callback(hObject, eventdata, handles)
 global I
